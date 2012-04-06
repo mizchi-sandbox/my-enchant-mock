@@ -1,0 +1,1 @@
+coffee -wcb -j all.js -o lib src/game
