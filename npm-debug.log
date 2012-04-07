@@ -1,0 +1,128 @@
+info it worked if it ends with ok
+verbose cli [ 'node',
+verbose cli   '/home/mizchi/.nodebrew/current/bin/npm',
+verbose cli   'install',
+verbose cli   'jsdom' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose /home/mizchi/.nodebrew/current/bin/node node symlink
+verbose config file /home/mizchi/.npmrc
+verbose config file /home/mizchi/.nodebrew/current/etc/npmrc
+verbose config file /home/mizchi/.nodebrew/node/v0.6.12/lib/node_modules/npm/npmrc
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/coffeekup/package.json
+verbose loadDefaults coffeekup@0.3.1
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/express/package.json
+verbose loadDefaults express@2.5.6
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/jasmine-node/package.json
+verbose loadDefaults jasmine-node@1.0.20
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/mocha/package.json
+verbose loadDefaults mocha@0.10.2
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/should/package.json
+verbose loadDefaults should@0.5.1
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/step/package.json
+verbose loadDefaults step@0.0.5
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/vows/package.json
+verbose loadDefaults vows@0.6.1
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/zappa/package.json
+verbose loadDefaults zappa@0.3.3
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/nstore/package.json
+verbose loadDefaults nstore@0.5.1
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/sugar/package.json
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/tower/package.json
+verbose loadDefaults tower@0.3.9-5
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/mersenne/package.json
+verbose loadDefaults mersenne@0.0.3
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/mnt/hgfs/mizchi/Dropbox/node_modules/ncurses/package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/ncurses/package.json
+verbose loadDefaults ncurses@0.2.4
+verbose caching /mnt/hgfs/mizchi/Dropbox/node_modules/sinon/package.json
+verbose loadDefaults sinon@1.3.1
+verbose cache add [ 'jsdom', null ]
+silly cache add: name, spec, args [ undefined, 'jsdom', [ 'jsdom', null ] ]
+verbose parsed url { pathname: 'jsdom', path: 'jsdom', href: 'jsdom' }
+verbose addNamed [ 'jsdom', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'jsdom', '', false ]
+verbose raw, before any munging jsdom
+verbose url resolving [ 'https://registry.npmjs.org/', './jsdom' ]
+verbose url resolved https://registry.npmjs.org/jsdom
+http GET https://registry.npmjs.org/jsdom
+http 200 https://registry.npmjs.org/jsdom
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"91Y8972G02JWBTNO2B077S7JC"',
+silly get cb     date: 'Sat, 07 Apr 2012 09:14:26 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '66546' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/mizchi/.npm/jsdom'
+verbose mkdir done: /home/mizchi/.npm/jsdom 755
+silly name, range, hasData 2 [ 'jsdom', '', true ]
+silly versions [ 'jsdom',
+silly versions   [ '0.0.1',
+silly versions     '0.1.2',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.7',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.1.10',
+silly versions     '0.1.11',
+silly versions     '0.1.12',
+silly versions     '0.1.13',
+silly versions     '0.1.15',
+silly versions     '0.1.16',
+silly versions     '0.1.17',
+silly versions     '0.1.18',
+silly versions     '0.1.19',
+silly versions     '0.1.20',
+silly versions     '0.1.21',
+silly versions     '0.1.22',
+silly versions     '0.1.23',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.2.8',
+silly versions     '0.2.9',
+silly versions     '0.2.10',
+silly versions     '0.2.11',
+silly versions     '0.2.12',
+silly versions     '0.2.13' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0e-v83.6.6.24-linux-ia32-3.0.0-12-generic',
+verbose bin dist   { shasum: '61814ecfd8a8174ebee7ef1ff2eaf224577c8ffa',
+verbose bin dist     tarball: 'http://registry.npmjs.org/jsdom/-/jsdom-0.2.13.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/jsdom/-/jsdom-0.2.13.tgz',
+verbose addRemoteTarball   '61814ecfd8a8174ebee7ef1ff2eaf224577c8ffa' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1333790066253'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1333790066253/1333790066253-0.6462000252213329'
+verbose mkdir done: /tmp/npm-1333790066253/1333790066253-0.6462000252213329 755
+verbose fetch to /tmp/npm-1333790066253/1333790066253-0.6462000252213329/tmp.tgz
+http GET https://registry.npmjs.org/jsdom/-/jsdom-0.2.13.tgz
+http 200 https://registry.npmjs.org/jsdom/-/jsdom-0.2.13.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 30720
+info shasum 61814ecfd8a8174ebee7ef1ff2eaf224577c8ffa
+info shasum /tmp/npm-1333790066253/1333790066253-0.6462000252213329/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1333790066253/1333790066253-0.6462000252213329/___package.npm'
+verbose mkdir done: /tmp/npm-1333790066253/1333790066253-0.6462000252213329/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1333790066253/1333790066253-0.6462000252213329/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /tmp/npm-1333790066253/1333790066253-0.6462000252213329/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1333790066253/1333790066253-0.6462000252213329/___package.npm/package/changelog
+silly asyncMap in gTP /tmp/npm-1333790066253/1333790066253-0.6462000252213329/___package.npm/package/README.md
+silly asyncMap in gTP /tmp/npm-1333790066253/1333790066253-0.6462000252213329/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1333790066253/1333790066253-0.6462000252213329/___package.npm/package/.gitignore
